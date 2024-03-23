@@ -1,0 +1,162 @@
+{
+  "id": "feuhif-wefwegewv-vdsvwev-256236-qt3e",
+  "menuData": [
+    {
+      "key": "dashboard",
+      "title": "Dashboard",
+      "url": "",
+      "icon": "LuLayoutDashboard",
+      "children": [
+        {
+          "key": "salesAnalytics",
+          "title": "Sales Analytics",
+          "parent": "dashboard",
+          "url": "/"
+        },
+        {
+          "key": "sellersList",
+          "title": "Sellers List",
+          "parent": "dashboard",
+          "url": "/sellers-list"
+        },
+        {
+          "key": "sellersTable",
+          "title": "Sellers Table",
+          "parent": "dashboard",
+          "url": "/sellers-table"
+        },
+        {
+          "key": "sellersGrid",
+          "title": "Sellers Grid",
+          "parent": "dashboard",
+          "url": "/sellers-grid"
+        },
+        {
+          "key": "sellersProfile",
+          "title": "Sellers Profile",
+          "parent": "dashboard",
+          "url": "/sellers-profile"
+        },
+        {
+          "key": "revenueByPeriod",
+          "title": "Revenue by Period",
+          "parent": "dashboard",
+          "url": "/revenue-by-period"
+        }
+      ]
+    },
+    {
+      "key": "products",
+      "title": "Products",
+      "url": "",
+      "icon": "LuSquareStack",
+      "children": [
+        {
+          "key": "topProducts",
+          "title": "Top Products",
+          "parent": "products",
+          "url": "/top-products"
+        },
+        {
+          "key": "productsGrid",
+          "title": "Products Grid",
+          "parent": "products",
+          "url": "/products-grid"
+        },
+        {
+          "key": "productsManagement",
+          "title": "Products Management",
+          "parent": "products",
+          "url": "/products-management"
+        },
+        {
+          "key": "productEditor",
+          "title": "Product Editor",
+          "parent": "products",
+          "url": "/product-editor"
+        },
+        {
+          "key": "banners",
+          "title": "Banners",
+          "parent": "products",
+          "url": "/banners"
+        }
+      ]
+    },
+    {
+      "key": "orders",
+      "title": "Orders",
+      "url": "/orders",
+      "icon": "LuShoppingCart",
+      "children": []
+    },
+    {
+      "key": "statistics",
+      "title": "Statistics",
+      "url": "/Statistics",
+      "icon": "LuBarChartBig",
+      "children": []
+    },
+    {
+      "key": "reviews",
+      "title": "Reviews",
+      "url": "/reviews",
+      "icon": "LuStar",
+      "children": []
+    },
+    {
+      "key": "customers",
+      "title": "Customers",
+      "url": "/customers",
+      "icon": "LuUserSquare",
+      "children": []
+    },
+    {
+      "key": "transactions",
+      "title": "Transactions",
+      "url": "/transactions",
+      "icon": "LuBadgeDollarSign",
+      "children": []
+    },
+    {
+      "key": "pages",
+      "title": "Pages",
+      "url": "",
+      "icon": "LuLayers",
+      "children": [
+        {
+          "key": "login",
+          "title": "Login",
+          "parent": "pages",
+          "url": "/login"
+        },
+        {
+          "key": "page404",
+          "title": "Page 404",
+          "parent": "pages",
+          "url": "/404"
+        }
+      ]
+    },
+    {
+      "key": "settings",
+      "title": "Settings",
+      "url": "",
+      "icon": "LuLayers",
+      "children": [
+        {
+          "key": "generalSettings",
+          "title": "General Settings",
+          "parent": "settings",
+          "url": "/general-settings"
+        },
+        {
+          "key": "connectedApps",
+          "title": "Connected Apps",
+          "parent": "settings",
+          "url": "/connected-apps"
+        }
+      ]
+    }
+  ]
+}

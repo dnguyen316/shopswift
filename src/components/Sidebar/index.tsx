@@ -1,11 +1,16 @@
 import { HamburgerIcon } from "@chakra-ui/icons";
 import {
+  Accordion,
+  AccordionButton,
+  AccordionItem,
+  AccordionPanel,
+  Box,
   Drawer,
   DrawerBody,
-  DrawerCloseButton,
   DrawerContent,
   DrawerHeader,
   DrawerOverlay,
+  Heading,
   IconButton,
   useDisclosure,
 } from "@chakra-ui/react";
@@ -36,7 +41,20 @@ const Sidebar = () => {
         <DrawerOverlay />
         <DrawerContent>
           <DrawerHeader>Logo</DrawerHeader>
-          <DrawerBody>Content</DrawerBody>
+          <DrawerBody>
+            <Accordion allowMultiple={true} allowToggle={true}>
+              <AccordionItem>
+                <Heading>
+                  <AccordionButton>
+                    <Box as="span" textAlign="left">Dashboard</Box>
+                  </AccordionButton>
+                </Heading>
+                <AccordionPanel>
+                  <AccordionButton>Sales Analytics</AccordionButton>
+                </AccordionPanel>
+              </AccordionItem>
+            </Accordion>
+          </DrawerBody>
         </DrawerContent>
       </Drawer>
     </>
